@@ -171,6 +171,10 @@ Error message and password prompt
 
 <li>$:/config/NewTiddler/Tags</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/manager</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions</li>
@@ -180,6 +184,8 @@ Error message and password prompt
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager</li>
+
+<li>$:/config/projectify/DefaultDashboardTab</li>
 
 <li>$:/config/projectify/projects-view</li>
 
@@ -283,7 +289,7 @@ Error message and password prompt
 
 <li>$:/state/projectify/show-completed-348423858</li>
 
-<li>$:/state/projectify/show-new-category-popup</li>
+<li>$:/state/projectify/show-reorder-projects</li>
 
 <li>$:/state/projectify/todo-filter</li>
 
@@ -354,6 +360,8 @@ Error message and password prompt
 <li>$:/status/UserName</li>
 
 <li>$:/StoryList</li>
+
+<li>$:/tags/PageControls</li>
 
 <li>$:/theme</li>
 
@@ -557,7 +565,7 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div category="" created="20210404203038198" creator="yuu~" description="stuff i'm waiting on from kickstarter and the like" list="[[Vaugely Monthly]] KS/Ongoing KS/Other KS/Games KS/Received [[KS/Questionable Status]]" modified="20210830143853456" modifier="yuu~" tags="Project" title="[$] orders">
+<div category="misc" created="20210404203038198" creator="yuu~" description="stuff i'm waiting on from kickstarter and the like" list="[[Vaugely Monthly]] KS/Ongoing KS/Other KS/Games KS/Received [[KS/Questionable Status]]" modified="20210902041503086" modifier="yuu~" tags="Project" title="[$] orders">
 <pre>all the kickstarters and other things that i'm waiting on, in alphabetical order hopefuly? </pre>
 </div>
 <div category="fic" created="20210902040656622" creator="yuu~" description="random gifts and prizes" modified="20210902041028038" modifier="yuu~" tags="Project" title="[gifts]">
@@ -571,13 +579,13 @@ create, play, talk</pre>
 <div category="ttrpg" created="20210509054938333" creator="yuu~" description="" modified="20210509055015343" modifier="yuu~" tags="Project" title="[JAM] Yuri Game Jam 2021">
 <pre>https://itch.io/jam/yuri-game-jam-2021</pre>
 </div>
-<div category="" created="20210501224112349" creator="yuu~" description="hahaha. How long will it take for me to fix it?" modified="20210509053257155" modifier="yuu~" tags="Project" title="[life] Redo Room">
+<div category="misc" created="20210501224112349" creator="yuu~" description="hahaha. How long will it take for me to fix it?" modified="20210902041457217" modifier="yuu~" tags="Project" title="[life] Redo Room">
 <pre></pre>
 </div>
 <div category="ocs" color="#036f32" created="20210222231759989" creator="yuu~" description="create a character site for yuu" icon="$:/core/images/full-screen-button" list="[[decide on layout]] [[purchase layout]] [[write shit up]] [[add AUs]]" modified="20210509053446062" modifier="yuu~" tags="Project ocs" title="[personal] set up are.yuu.gay">
 <pre></pre>
 </div>
-<div created="20210221004652184" creator="yuu~" modified="20210902040950599" modifier="yuu~" tags="important musings fanwork [[links to keep]] idea nsfw rec test ttrpg Project" title="* Tags">
+<div category="misc" created="20210221004652184" creator="yuu~" modified="20210902041115479" modifier="yuu~" tags="important musings fanwork [[links to keep]] idea nsfw rec test ttrpg Project" title="* Tags">
 <pre>use this to easily find posts</pre>
 </div>
 <div created="20210509054820640" creator="yuu~" due="20211201120000000" modified="20210509054850552" modifier="yuu~" tags="[[[JAM] #NaGaDeMon 2021]] todo" title="#NaGaDeMon 2021 End">
@@ -604,6 +612,12 @@ create, play, talk</pre>
 <div created="20210221004840573" modified="20210221004840573" title="$:/config/NewTiddler/Tags">
 <pre>musings</pre>
 </div>
+<div created="20210902041321637" creator="yuu~" modified="20210902041321637" modifier="yuu~" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
+<pre>show</pre>
+</div>
+<div created="20210902041336433" creator="yuu~" modified="20210902041336433" modifier="yuu~" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<pre>show</pre>
+</div>
 <div created="20210624033018379" creator="yuu~" modified="20210624033028977" modifier="yuu~" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/manager">
 <pre>hide</pre>
 </div>
@@ -619,7 +633,10 @@ create, play, talk</pre>
 <div created="20210302041452479" creator="yuu~" modified="20210302041452479" modifier="yuu~" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
 <pre>show</pre>
 </div>
-<div created="20210110204241653" creator="yuu~" modified="20210302041410497" modifier="yuu~" title="$:/config/projectify/projects-view" type="text/vnd.tiddlywiki">
+<div created="20210111103027104" creator="yuu~" modified="20210902041509080" modifier="yuu~" tags="" title="$:/config/projectify/DefaultDashboardTab" type="text/vnd.tiddlywiki">
+<pre>$:/plugins/nico/projectify/ui/dashboard/InboxAndProjects</pre>
+</div>
+<div created="20210110204241653" creator="yuu~" modified="20210902041423640" modifier="yuu~" title="$:/config/projectify/projects-view" type="text/vnd.tiddlywiki">
 <pre>cards</pre>
 </div>
 <div created="20210302041341882" creator="yuu~" modified="20210302041341882" modifier="yuu~" title="$:/config/projectify/ShowWelcomeMessages">
@@ -12727,7 +12744,7 @@ Projects
 <div created="20210222044450096" creator="yuu~" modified="20210624033715915" modifier="yuu~" title="$:/state/plugin-info-948407934-$:/plugins/TheDiveO/FontAwesome---1578667702">
 <pre>contents</pre>
 </div>
-<div created="20210222052417170" creator="yuu~" modified="20210624033215341" modifier="yuu~" title="$:/state/projectify/config-482715637">
+<div created="20210222052417170" creator="yuu~" modified="20210902041521302" modifier="yuu~" title="$:/state/projectify/config-482715637">
 <pre>$:/plugins/nico/projectify/ui/config/Dashboard</pre>
 </div>
 <div color="" created="20210222052432154" creator="yuu~" modified="20210902041059004" modifier="yuu~" tag_name="" title="$:/state/projectify/new-category">
@@ -12778,13 +12795,13 @@ Projects
 <div created="20210827195904415" creator="yuu~" modified="20210827195904415" modifier="yuu~" title="$:/state/projectify/show-completed-348423858">
 <pre>yes</pre>
 </div>
-<div created="20210902041056709" creator="yuu~" modified="20210902041059004" modifier="yuu~" title="$:/state/projectify/show-new-category-popup">
-<pre></pre>
+<div created="20210902041152882" creator="yuu~" modified="20210902041211007" modifier="yuu~" title="$:/state/projectify/show-reorder-projects">
+<pre>no</pre>
 </div>
 <div created="20210428032740090" creator="yuu~" filter="[tag[done]]" modified="20210428032740090" modifier="yuu~" title="$:/state/projectify/todo-filter">
 <pre></pre>
 </div>
-<div created="20210302032234753" creator="yuu~" modified="20210829175544425" modifier="yuu~" title="$:/state/projects-and-schedule-1880112193">
+<div created="20210302032234753" creator="yuu~" modified="20210902041444452" modifier="yuu~" title="$:/state/projects-and-schedule-1880112193">
 <pre>$:/plugins/nico/projectify/ui/dashboard/InboxAndProjects</pre>
 </div>
 <div created="20210220235955667" creator="yuu~" modified="20210831174308845" modifier="yuu~" title="$:/state/sidebar">
@@ -12793,10 +12810,10 @@ Projects
 <div created="20210302041252463" creator="yuu~" modified="20210302041303910" modifier="yuu~" title="$:/state/tab--1498284803">
 <pre>$:/core/ui/AdvancedSearch/Filter</pre>
 </div>
-<div created="20210220235659496" creator="yuu~" modified="20210624034254896" modifier="yuu~" title="$:/state/tab--1963855381">
-<pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
+<div created="20210220235659496" creator="yuu~" modified="20210902041316577" modifier="yuu~" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Toolbars</pre>
 </div>
-<div created="20210220235150125" creator="yuu~" modified="20210624030635435" modifier="yuu~" title="$:/state/tab--2112689675">
+<div created="20210220235150125" creator="yuu~" modified="20210902041528281" modifier="yuu~" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Basics</pre>
 </div>
 <div created="20210221001650320" modified="20210221001650320" title="$:/state/tab--84277103">
@@ -12808,7 +12825,7 @@ Projects
 <div created="20210624030625356" creator="yuu~" modified="20210624030630375" modifier="yuu~" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/Stylesheets</pre>
 </div>
-<div created="20210220235158671" creator="yuu~" modified="20210902040115832" modifier="yuu~" title="$:/state/tab-1749438307">
+<div created="20210220235158671" creator="yuu~" modified="20210902041522606" modifier="yuu~" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20210220235202112" creator="yuu~" modified="20210624034123934" modifier="yuu~" title="$:/state/tab-2065006209">
@@ -12817,10 +12834,10 @@ Projects
 <div created="20210221003731375" creator="yuu~" modified="20210827211727066" modifier="yuu~" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20210220235759357" creator="yuu~" modified="20210902040220376" modifier="yuu~" title="$:/state/tab/sidebar--595412856">
-<pre>$:/plugins/kookma/trashbin/sidebar-tab</pre>
+<div created="20210220235759357" creator="yuu~" modified="20210902041248783" modifier="yuu~" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
-<div created="20210624032944278" creator="yuu~" modified="20210624034236778" modifier="yuu~" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<div created="20210624032944278" creator="yuu~" modified="20210902041345795" modifier="yuu~" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
 </div>
 <div created="20210827194948651" creator="yuu~" modified="20210827194948651" modifier="yuu~" title="$:/state/tag-manager/[!zine] Contagion">
@@ -12883,7 +12900,10 @@ Projects
 <div created="20210221004901200" creator="y" modified="20210221004903645" modifier="yuu" title="$:/status/UserName">
 <pre>yuu~</pre>
 </div>
-<div created="20210902040954735" creator="yuu~" list="[[* Tags]] Projects $:/plugins/nico/projectify/ui/config/Categories [gifts] [[[life] Redo Room]]" modified="20210902041054519" modifier="yuu~" title="$:/StoryList">
+<div created="20210902041420330" creator="yuu~" list="$:/ControlPanel [[* Tags]] Projects" modified="20210902041420330" modifier="yuu~" title="$:/StoryList">
+<pre></pre>
+</div>
+<div created="20210902041329587" creator="yuu~" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions $:/core/ui/Buttons/close-all $:/plugins/nico/projectify/ui/buttons/Scheduled" modified="20210902041329587" modifier="yuu~" title="$:/tags/PageControls">
 <pre></pre>
 </div>
 <div created="20210624033200147" creator="yuu~" modified="20210624033209895" modifier="yuu~" title="$:/theme">
@@ -13768,7 +13788,7 @@ i wanna have the bare minimum of characters on toyhou.se</pre>
 * language based magic? 
 * cross between nanoha's [[magic sytems|https://nanoha.fandom.com/wiki/Magic_System]] and [[devices|https://nanoha.fandom.com/wiki/Device]] and CLAMP's [[magic circles as signatures|https://tsubasa.fandom.com/wiki/Magic_Circles]] ([[alt|https://ccsakura.fandom.com/wiki/Magic_Circles]]). (less nanoha [[magic circle|https://nanoha.fandom.com/wiki/Magic_circle]] since each circle is unique to spell instead of caster. probably more closer to CLAMP)</pre>
 </div>
-<div color="" created="20210902041059003" creator="yuu~" modified="20210902041059003" modifier="yuu~" tags="$:/plugins/nico/projectify/tags/Category" title="misc">
+<div color="#8a8585" created="20210902041059003" creator="yuu~" modified="20210902041106969" modifier="yuu~" tags="$:/plugins/nico/projectify/tags/Category" title="misc">
 <pre></pre>
 </div>
 <div color="#8e335b" created="20210221005051787" creator="yuu~" icon="$:/core/images/delete-button" modified="20210827211317482" modifier="yuu~" title="musings">
@@ -13790,7 +13810,7 @@ I am away because story of seasons</pre>
 <div color="#774b4b" created="20210302041813930" creator="yuu~" icon="$:/core/images/down-arrow" modified="20210302210240549" modifier="yuu~" title="plugins">
 <pre></pre>
 </div>
-<div color="#5cccac" created="20210302041824956" creator="yuu~" icon="$:/core/images/close-others-button" modified="20210302210213338" modifier="yuu~" title="Project">
+<div color="#5cccac" created="20210302041824956" creator="yuu~" icon="$:/core/images/close-others-button" list="[[[$] orders]] [gifts] [[[life] Redo Room]] [[[JAM] #NaGaDeMon 2021]] [[[JAM] Yuri Game Jam 2021]] [[[personal] set up are.yuu.gay]] [[* Tags]]" modified="20210902041209347" modifier="yuu~" title="Project">
 <pre></pre>
 </div>
 <div created="20210222043518848" creator="yuu~" modified="20210520010729519" modifier="yuu~" tags="important" title="Projects" type="text/vnd.tiddlywiki">
