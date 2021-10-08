@@ -52,7 +52,22 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 
 <!--~~ Raw markup ~~-->
 
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 
 </head>
 <body class="tc-body">
@@ -450,8 +465,6 @@ Error message and password prompt
 <li>decide on layout</li>
 
 <li>done</li>
-
-<li>Draft of 'Badtouch, AiReki' by yuu~</li>
 
 <li>fanexus badges</li>
 
@@ -13122,7 +13135,7 @@ Projects
 <div created="20210624030625356" creator="yuu~" modified="20210902205356579" modifier="yuu~" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/LoadedModules</pre>
 </div>
-<div created="20210220235158671" creator="yuu~" modified="20211008030814445" modifier="yuu~" title="$:/state/tab-1749438307">
+<div created="20210220235158671" creator="yuu~" modified="20211008030705650" modifier="yuu~" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Plugins</pre>
 </div>
 <div created="20210220235202112" creator="yuu~" modified="20210624034123934" modifier="yuu~" title="$:/state/tab-2065006209">
@@ -13195,12 +13208,12 @@ Projects
 <pre>closed</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
-<pre>yes</pre>
+<pre>no</pre>
 </div>
 <div created="20210221004901200" creator="y" modified="20210221004903645" modifier="yuu" title="$:/status/UserName">
 <pre>yuu~</pre>
 </div>
-<div created="20211008030744778" creator="yuu~" list="$:/ControlPanel [[* Tags]] Projects [write] [[Draft of 'Badtouch, AiReki' by yuu~]]" modified="20211008030811093" modifier="yuu~" title="$:/StoryList">
+<div list="[[* Tags]] Projects" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210902041329587" creator="yuu~" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/close-all $:/core/ui/Buttons/more-page-actions $:/plugins/nico/projectify/ui/buttons/Scheduled" modified="20210902043440366" modifier="yuu~" title="$:/tags/PageControls">
@@ -13477,9 +13490,6 @@ check it out on netflix</pre>
 </div>
 <div color="#85712e" created="20210302041656384" creator="yuu~" icon="$:/core/images/done-button" modified="20210302210435106" modifier="yuu~" title="done">
 <pre></pre>
-</div>
-<div created="20211008030552937" creator="yuu~" draft.of="Badtouch, AiReki" draft.title="Badtouch, AiReki" due="20211011120000000" modified="20211008030748152" modifier="yuu~" tags="[write] todo" title="Draft of 'Badtouch, AiReki' by yuu~">
-<pre>https://twitter.com/KiingFluffybuns/status/1446308450640744459?t=OiZRIikV8OqJbC-9sMMwDw&amp;s=19</pre>
 </div>
 <div created="20210928202524418" creator="yuu~" modified="20210928202542519" modifier="yuu~" tags="[[links to keep]]" title="fanexus badges">
 <pre>https://beta.fanexus.net/tag/%5B%22Web%20Badges%22%5D/blog-posts/2/post/355
